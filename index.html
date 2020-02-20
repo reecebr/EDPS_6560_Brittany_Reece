@@ -10,31 +10,55 @@
 
     <title>Website</title>
   </head>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
   <body>
-      <div id="sec_lan">
+      <div id="header">
         <h1><strong>Brittany A. Reece</strong></h1>
-        <h2>Photographer|Graphic Designer|Instructional Designer</h2>
-        <h3>Designing and Creating Moments to Remember</h3>
+        <h4>Photographer | Graphic Designer| Instructional Designer</h4>
       </div>
-      <nav id="sec_nav">
-        <ul>
-            <li><a href="#sec_exp">About Me</a></li>
-            <li><a href="projects/2.html">Photography</a></li>
-            <li><a href="projects/1.html">Design</a></li>
-            <li><a href="contact.html" target="_blank">Contact Me</a></li>
-         </ul>
+      <nav id="container">
+          <div class="row justify-content-center">
+          <div class="col-auto nav_item">
+              <ul><a href="#sec_abo">About Me</a></ul>
+          </div>
+          <div class="col-auto">
+              <ul><a href="projects/2.html">Photography</a></ul>
+              </div>
+           <div class="col-auto">
+              <ul><a href="projects/1.html">Graphic</a></ul>
+              </div>
+            <div class="col-auto">
+              <ul><a href="Projects/3.html">Instructional</a></ul>
+              </div>
+            <div class="col-auto">
+              <ul><a href="#sec_con">Contact Me</a></ul>
+              </div>
+                
+          
+          </div>
+        
       </nav>
+      <p> 
+        <h5>Designing and Creating Moments to Remember</h5>
+      </p>
       <div id="sec_abo">
-          <h1>About Me</h1>
-            <img src="img/picture.png" height="500" width="auto" alt="Brittany Reece headshot"/>
-          <p> 
-          </p>
-      </div>
-      <div id="sec_exp">
-          <h1>Experience</h1>
-          <h2>Photographer</h2>
+          <h3>About Me</h3>
+          <div class="container">
+            <div class="row">
+            <div class="col">
+                <img src="img/picture.png" height="150" width="auto" alt="Brittany Reece headshot"/>
+            </div>
+        <div class="col-9">
+            <p>This is where you will come to learn about how great I am. </p>
+        </div>
+            
+          
       </div>
     
+        <div id="sec_con">
+            <h3>Contact Me</h3>
+    </div>
+          
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
