@@ -1,0 +1,99 @@
+#header{
+  background-color:#8C1F1D;  
+}
+
+.header-img {
+  width: 100%;
+  height: 100px;
+  background: url(../website/img/logo%202.png);
+  background-size:contain
+}
+
+/* unvisited link */
+a:link {
+  color: #8C1F1D;
+}
+
+/* visited link */
+a:visited {
+  color: #4B7087;
+}
+
+/* mouse over link */
+a:hover {
+  color: #DE6662;
+}
+
+/* selected link */
+a:active {
+  color: #112430;
+}
+
+h1,h4{
+font-family:Georgia;
+color:#FCFBCE;
+text-align: center;
+padding: 20px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h4{
+    font-size: 20px
+}
+
+h3{
+color:#8C1F1D;
+text-align: center;
+    padding:20px;
+}
+
+h5{
+    Color:#FCFBCE;
+    text-align:center;
+    font-size: 20px;
+    font-family:'Kaushan Script', cursive; 
+}
+
+#container{
+    font-size: 12px;
+}
+
+#sec_pro{
+    height:300px;
+    border: 20px;
+    background-image: url("img/colors.jpg");
+    background-color:#112430;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-size: cover;
+    background-repeat:no-repeat; 
+    object-fit: fill;
+
+}
+
+    
+#sec_abo{
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: var(--main-color-white);
+    align-content:right;
+    font: Georgia;
+    text-align:center;
+}
+
+#sec_con{
+    background-color:#112430;
+    font-size:20px;
+    font-weight:500;
+    text-align:center;
+    }
+
+ul{
+    text-align: left;
+    padding-left:10px;
+    color:#FCFBCE;
+}
+
